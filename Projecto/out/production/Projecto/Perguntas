@@ -1,0 +1,24 @@
+Artes;Quem pintou a Mona Lisa?;Leonardo da Vinci;Pablo Picasso;Vincent van Gogh;Claude Monet;Michelangelo;5
+Artes;Em que período artístico surgiu a pintura 'A Noite Estrelada' de Van Gogh?;Cubismo;Renascimento;Barroco;Romantismo;Cubismo;10
+Artes;Qual é o movimento artístico associado a Salvador Dalí?;Pop Art;Renascimento;Rococó;Romantismo;Pop Art;10
+Artes;Qual destas séries de televisão não é uma obra de arte visual?;Friends;A Guerra dos Tronos;Breaking Bad;Stranger Things;The Walking Dead;15
+Artes;Qual dessas obras é de autoria de Pablo Picasso?;Guernica;A Última Ceia;A Noite Estrelada;Mona Lisa;O Grito;7
+Ciencias;Quem formulou as leis do movimento e da gravidade?;Albert Einstein;facil;Galileu Galilei;Nicolas Copérnico;Johannes Kepler;dificil;Aristóteles;Thomas Edison;Marie Curie;Stephen Hawking;Niels Bohr;5
+Ciencias;Qual é o material genético presente nas células?;Ácido Ribonucleico;facil;Proteínas;Enzimas;Carboidratos;dificil;ATP;RNA Polimerase;Lipídios;Vitaminas;Fungos;10
+Ciencias;Qual é a estrela mais próxima da Terra?;Alpha Centauri;facil;A Lua;Vênus;Marte;dificil;Betelgeuse;Sirius;Próxima Centauri;Alpha Centauri B;Epsilon Eridani;10
+Ciencias;Qual é o elemento químico mais abundante na crosta terrestre?;Água;facil;Petróleo;Ouro;Cobre;dificil;Urânio;Platina;Prata;Hélio;Chumbo;7
+Ciencias;Qual é o principal organelo responsável pela produção de ATP nas células?;Núcleo;facil;Ribossomo;Retículo Endoplasmático;Lisossomo;dificil;Complexo de Golgi;Vacúolo;Cloroplasto;Parede Celular;Citoesqueleto;10
+Football;Messi;10;Ronaldo;7;Ronaldo Nazario;9;Manuel Neuer;1;Ruben Neves;8;
+Ski;O slalom é uma disciplina de esqui alpino.;true;5
+Ski;O esqui cross-country é uma modalidade de esqui que envolve longas distâncias.;true;5
+Ski;O salto de esqui é praticado apenas no inverno.;false;5
+Ski;O biatlo combina esqui cross-country e tiro ao alvo.;true;5
+Ski;O esqui freestyle inclui modalidades como o esqui aerial e o esqui moguls.;true;5
+Ski;O esqui alpino envolve descidas em alta velocidade por pistas íngremes.;true;5
+Natacao;Michael Phelps ganhou mais de 20 medalhas de ouro olímpicas.;false;10;
+Natacao;A mariposa é um estilo de nado na natação competitiva.;true;5
+Natacao;Nadar é um esporte que não impacta as articulações.;false;5
+Natacao;A natação é um esporte exclusivamente de verão.;false;5
+Natacao;Os óculos de natação foram introduzidos pela primeira vez nos anos 1930.;true;5
+Natacao;O nado sincronizado faz parte dos eventos de natação nos Jogos Olímpicos.;true;5
+Natacao;OS criadores deste jogo nao percebem de natacão;true;20
