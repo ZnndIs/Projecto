@@ -22,4 +22,4 @@ Natacao;A natação é um esporte exclusivamente de verão.;false;5
 Natacao;Os óculos de natação foram introduzidos pela primeira vez nos anos 1930.;true;5
 Natacao;O nado sincronizado faz parte dos eventos de natação nos Jogos Olímpicos.;true;5
 Natacao;OS criadores deste jogo nao percebem de natacão;true;20
-artes;só para mostarar que nao sera adicionada caso nao tenha os elementos necessarios;
+artes; para ver que nao funciona

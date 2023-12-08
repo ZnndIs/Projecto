@@ -14,14 +14,10 @@ public class Main {
             String questao = (String) result[0];
             ArrayList<String> res = (ArrayList<String>) result[1];
             String certa = (String) result[2];
-            Integer tam = (Integer) result[3];
-            Integer subtam = (Integer) result[4];
 
             System.out.println("Question: " + questao);
             System.out.println("Answers: " + res);
             System.out.println( "Right answer: " + certa);
-            System.out.println("tamanho per "+ tam );
-            System.out.println("cat num " + subtam);
 
             System.out.println("------------------------");
         }

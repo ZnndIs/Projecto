@@ -16,7 +16,8 @@ public class Jogo {
     private int perguntaNumero;
     private int pontuacao;
 
-    private ArrayList<ArrayList<Pergunta>> perguntas = new PerguntaLeitor().ler();
+
+    private ArrayList<ArrayList<Pergunta>> perguntas ;
     private int cat;
 
 
@@ -31,7 +32,7 @@ public class Jogo {
 
 
 
-    public String Start(){
+    public String start(){
         return " Vamos jogar ao POO Trivia";
     }
 
@@ -40,7 +41,7 @@ public class Jogo {
         Random random = new Random();
         int rand = random.nextInt(3);
         String questao;
-        String rescert;
+        String respCerta;
         Pergunta per;
         ArrayList<String> res;
         int rand2;
@@ -52,7 +53,7 @@ public class Jogo {
              per = categoria.get(rand2);
              questao = per.pergunta(perguntaNumero);
              res = per.respostas(perguntaNumero);
-             rescert = per.respostaCerta();
+             respCerta = per.respostaCerta();
              categoria.remove(per);
              this.cat=rand;
         } else if (rand == 1){ // peruntas de Artes
@@ -61,7 +62,7 @@ public class Jogo {
             per = categoria.get(rand2);
              questao = per.pergunta(perguntaNumero);
              res = per.respostas(perguntaNumero);
-             rescert = categoria.get(rand2).respostaCerta();
+             respCerta = categoria.get(rand2).respostaCerta();
              categoria.remove(per);
              this.cat=rand;
         } else{
@@ -71,14 +72,14 @@ public class Jogo {
             rand3 = random.nextInt(categoria.size());
             questao = categoria.get(rand3).pergunta(perguntaNumero);
             res = categoria.get(rand3).respostas(perguntaNumero);
-            rescert = categoria.get(rand3).respostaCerta();
+            respCerta = categoria.get(rand3).respostaCerta();
             if(rand + rand2 != 2){
                 per = categoria.get(rand3); // football tem indice 2 e a remocao é feita na chamada do metodo resposta
             }
 
         }
         perguntaNumero +=1;
-        return new Object[]{questao,res,rescert,perguntas.size(), perguntas.get(rand).size()};
+        return new Object[]{questao,res,respCerta,};
     }
 
     public void aumentaPontos(float pont){ // pont sera tirado da funcao da pergunta
@@ -105,9 +106,6 @@ public class Jogo {
 
         for (ArrayList<Pergunta> category : perguntas) {
             result.append("Category Size: ").append(category.size()).append("\n");
-            for (Pergunta per : category){
-                System.out.println(per.pergunta(0));
-            }
         }
 
         return result.toString();

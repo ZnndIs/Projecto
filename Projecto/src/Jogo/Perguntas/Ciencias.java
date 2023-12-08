@@ -15,6 +15,7 @@ public class Ciencias extends Pergunta{
         easy.add(respostaCerta);
         hard.add(respostaCerta);
 
+
     }
 
 
